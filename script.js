@@ -184,8 +184,8 @@ function fifthStepSubmitHandler () {
 	const websiteType = document.querySelector('.moreRevenue:checked').value;
 	document.getElementById('pages-you-need').setAttribute('value', websiteType);
 	
-	const howManyPages = document.querySelector('.how-many-pages:checked').value;
-	document.getElementById('how-many-pages').setAttribute('value', howManyPages);
+	const howManyPages1 = document.querySelector('.how-many-pages:checked').value;
+	document.getElementById('how-many-pages').setAttribute('value', howManyPages1);
 	
 	const conversionObject = document.querySelector('.conversion-object:checked').value;
 	document.getElementById('Conversion-Object').setAttribute('value', conversionObject);
